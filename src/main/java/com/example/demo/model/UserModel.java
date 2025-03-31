@@ -1,21 +1,22 @@
-package com.example.demo.dto;
+package com.example.demo.model;
 
-public class UserDTO {
 
+
+public class UserModel {
     private Long id;
     private String name;
     private String password;
     private String email;
 
 
-    public UserDTO( Long id, String name, String password, String email ) {
+    public UserModel( Long id, String name, String password, String email ) {
         this.id = id;
         this.name = name;
         this.password = password;
         this.email = email;
     }
 
-    public UserDTO (){
+    public UserModel() {
 
     }
 
